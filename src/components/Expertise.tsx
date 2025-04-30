@@ -7,28 +7,23 @@ import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
     "React",
-    "TypeScript",
     "JavaScript",
+    "Jquery",
+    "Nodejs",
+    "ExpressJs",
+    "MongoDB",
     "HTML5",
     "CSS3",
     "SASS",
-    "Flask",
-    "Python",
     "SQL",
-    "PostgreSQL",
     "Postman"
 ];
 
 const labelsSecond = [
     "Git",
     "GitHub Actions",
-    "Docker",
-    "AWS",
-    "Azure",
     "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
+    "windows12"
 ];
 
 const labelsThird = [
@@ -59,7 +54,7 @@ function Expertise() {
                     </div>
                 </div>
 
-                <div className="skill">
+                {/* <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
                     <h3>DevOps & Automation</h3>
                     <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
@@ -69,7 +64,7 @@ function Expertise() {
                             <Chip key={index} className='chip' label={label} />
                         ))}
                     </div>
-                </div>
+                </div> */}
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
